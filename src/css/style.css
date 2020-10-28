@@ -7,10 +7,22 @@
 }
 
 #ball {
+    transform: translate(-50%, -50%);
     height: 50px;
     width: 50px;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     position: absolute;
     background-color: mediumvioletred;
+    border: 1px solid black;
+}
+
+#ballCenter {
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: orangered;
     border: 1px solid black;
 }
